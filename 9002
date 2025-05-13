@@ -1,2 +1,26 @@
 Malware familly 9002:
 9002 RAT is a Remote Access Tool typically observed to be used by an APT to control a victim's machine
+
+9002 RAT, also known as 9002 Remote Access Trojan, is a backdoor trojan used by various Advanced Persistent Threat (APT) groups, including APT27 (Emissary Panda). It allows attackers to:
+
+Execute arbitrary commands
+
+Transfer files
+
+Capture keystrokes and screenshots
+
+Manage processes and services on compromised systems
+
+The malware is often deployed post-intrusion to maintain persistent access to a target network.
+
+Key characteristics:
+
+Custom protocol communication
+
+Mutex creation (often “HGL345” or variations)
+
+Embedded configuration
+
+Use of specific API patterns
+
+Packed payloads
